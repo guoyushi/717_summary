@@ -1,0 +1,44 @@
+{
+  "name": "react717",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --color --profile --progress --config config/webpack.dev.js",
+    "build": "cross-env NODE_ENV=production webpack --color --profile --progress --config config/webpack.build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "cross-env": "^5.1.4",
+    "css-loader": "^0.28.10",
+    "file-loader": "^1.1.11",
+    "jsonwebtoken": "^8.2.0",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
+    "mockjs": "^1.0.1-beta3",
+    "scss": "^0.2.4",
+    "scss-loader": "^0.0.1",
+    "style-loader": "^0.20.3",
+    "swiper": "^4.1.6",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-lazyload": "^2.3.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-toast-mobile": "^1.0.7",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.16.0"
+  }
+}
